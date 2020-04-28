@@ -2,7 +2,9 @@
 This script will create below resources
 
 1)Hosted zone
+
 2)A record
+
 3)CNAME
 
 # Requirements
