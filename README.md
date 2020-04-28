@@ -7,7 +7,7 @@ This script will create below resources:-
 
 3)CNAME
 
-# Requirements
+# Requirement
 
 AWS SDK for Python - boto3 sudo pip install boto3
 
