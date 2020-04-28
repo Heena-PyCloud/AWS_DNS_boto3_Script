@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime 
 import boto3
 
 client = boto3.client('route53', aws_access_key_id="****", aws_secret_access_key="****") #Enter your access key and secret access key
@@ -7,7 +7,7 @@ def hosted_zone():
    response = client.create_hosted_zone(
    Name='max.com',
    VPC={
-        'VPCRegion': 'us-east-1', #Etter your VPC Region and Id.
+        'VPCRegion': 'us-east-1', #Enter your VPC Region and Id.
         'VPCId': 'vpc-23117123'
     },
     CallerReference='Max' + datetime.now().strftime("%d-%m-%Y_%I-%M-%S_%p"),
