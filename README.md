@@ -1,5 +1,5 @@
 # AWS_DNS_boto3_Script
-This script will create below resources
+This script will create below resources:
 
 1)Hosted zone
 
