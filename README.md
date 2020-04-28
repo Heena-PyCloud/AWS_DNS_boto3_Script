@@ -11,4 +11,4 @@ This script will create below resources:-
 
 AWS SDK for Python - boto3 sudo pip install boto3
 
-Configure IAM Role attached to your EC2 instance or IAM User with AccessKey/SecretKey
+__Configure__ IAM Role attached to your EC2 instance or IAM User with AccessKey/SecretKey
